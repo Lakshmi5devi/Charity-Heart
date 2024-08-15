@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<title>Charity Hearts Project</title>
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
+    <style>
+     
+		body {
+			color: #262626;
+			font-size: 14px;
+			line-height: 1.8;
+			<!-- font-family: 'Montserrat', sans-serif; -->
+		}
+
+		li{
+			font-size: large;
+			display:inline;
+			padding:10px;
+			margin:10px;
+		}
+		
+		.background{
+			color:white;
+			background-color: black;
+		}
+		
+		.topheader
+		{
+			background-color:#E48061;
+			color: #fff;
+			padding: 10px;
+		}
+		
+		.topheader a
+		{
+			color: #fff;			
+		}
+		
+		.topheader a
+		{
+			color: #fff;
+		}
+		
+		.site-navigation ul {			
+			top: 0;
+			left: -320px;
+			z-index: 1;			
+			height: 100%;
+			padding: 10px 50px;
+			margin: 0;
+			background: #fff;
+			list-style: none;
+		}
+
+		.site-navigation.show ul {
+			left: 0;
+		}
+
+		.site-navigation ul li {
+			margin: 0 16px;
+		}
+		
+		.site-navigation ul li a {
+			display: block;
+			padding: 16px 0;
+			font-size: 14px;
+			font-weight: 800;
+			line-height: 1;
+			color: #262626;
+			text-decoration: none;
+		}
+
+		.site-navigation ul li a:hover,
+		.site-navigation ul li.active a {
+			border-bottom: 3px solid #E48061;
+			color: #E48061;
+		}
+
+		.flaticon-style
+		{
+			color: #111;
+			font-size: 24px;
+		}
+		
+		.client-section {
+			background-color: #FCF8F4;			
+		}		
+	  
+		.sticky {
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		  z-index: 9999;
+		  background-color: #fff;	
+		}
+
+		<!-- .sticky + .content { -->
+		  <!-- padding-top: 102px; -->
+		<!-- } -->
+	  
+    </style>
+	
+</head>
+<body>
+	<header>
+		<div id="header" class="container-fluid">
+			<div class="row">				
+				<p class="topheader text-center">
+					Your Donation Can Change the World.
+					<a href="#">
+					<span style="text-decoration: underline;">
+						Donate
+					</span></a>
+				</p>				
+			</div>
+			<div class="row">
+				<div class="col-2 d-flex flex-wrap justify-content-between align-items-center px-5 pb-3 float-right">
+					<div class="site-branding d-flex align-items-center ">
+						<a class="d-block" href="index.html" rel="home">
+							<img class="d-block" style="height: 75px;width:75px;" src="images/h15-logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-6 ps-5 float-right">
+					<nav class="site-navigation d-flex justify-content-end align-items-center">
+						<ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+						  <li class="active">
+							<a href="index.html">Home</a></li>
+						  <li><a href="pages.html">Pages</a></li>
+						  <li><a href="donations.html">Donations</a></li>
+						  <li><a href="blog.html">Blog</a></li>
+						  <li><a href="portfolio.html">Portfolio</a></li>
+						  <li><a href="contacts.html">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-1 pt-3" >					
+					<a class="" role="button" title="Click to open Shopping Cart">
+						<i class="bi bi-basket flaticon-style"></i>
+					</a>							
+				</div>
+				<div class="col-1 pt-2">					
+					<!-- <a class="" role="button" title=""> -->
+						<!-- <i class="bi bi-search flaticon-style"></i> -->
+					<!-- </a> -->
+					<nav class="navbar navbar-light">
+					  <form class="form-inline">
+						<div class="input-group">
+						  <div class="input-group-prepend">
+							<i class="bi bi-search flaticon-style"></i>
+						  </div>
+						  <!-- <input type="text" class="form-control w-10"  -->
+							<!-- placeholder="Search" > -->
+						</div>
+					  </form>
+					</nav>
+				</div>
+				<div class="col pt-3">
+					<a class="btn btn-outline-danger btn-block border-2 rounded-pill" role="button" href="#">	<span>DONATE NOW</span>
+					</a>
+				</div>
+			</div>			
+		</div>
+	</header>    
+    <section>
+        <img src="./images/slider1.png" width="1500px"/>
+    </section>
+    <section class="client-section p-4">
+		<div class="row">
+			<div class="col">
+				<img class="carousel-img clients-img hover_image" alt="h15-c1" src="./images/h15-c1.png" />
+			</div>
+			<div class="col">
+				<img class="carousel-img clients-img hover_image" alt="h15-c2" src="./images/h15-c2.png" />
+			</div>
+			<div class="col">
+				<img class="carousel-img clients-img hover_image" alt="h15-c3" src="./images/h15-c3.png" />
+			</div>
+			<div class="col">
+				<img class="carousel-img clients-img hover_image" alt="h15-c4" src="./images/h15-c4.png" />
+			</div>
+			<div class="col">
+				<img class="carousel-img clients-img hover_image" alt="h15-c5" src="./images/h15-c5.png" />
+			</div>
+			<div class="col">
+				<img class="carousel-img clients-img hover_image" alt="h15-c6" src="./images/h15-c6.png" />
+			</div>
+		</div>
+	</section>    
+
+    <!-- Footer -->
+    <footer class="background">
+		<div class="row p-5">
+			<div class="col">
+				<img src="./images/big hearts white.png" width="90px"/>
+				<p>We’re curious, passionate, and committed to helping nonprofits learn and grow. Donate now!</p> 
+                <button>Donate Now❤️</button>
+			</div>
+			<div class="col">
+				<ul>
+					<li>
+						<p>CONTACTS</p>
+						<p> 92 Bowery St., NY 10013</p>
+						<p>bighearts@mail.com</p>
+						<p>+1 800 123 456 789</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col">
+				<ul>
+					<li>
+						<p>NONPROFITS</p>
+						<p>Nonprofit Resources</p>
+						<p>Corporate Giving Resources</p>
+						<p>Corporate Gift Cards</p>
+						<p>CSR Made Simple</p>
+						<p>Start an Application</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col">
+				<ul>
+					<li>
+						<p>DONORS</p>
+						<p>Give or Redeem Gift Cards</p>
+						<p>Donate in Honor</p>
+						<p>Project of the Month Club</p>
+						<p>Start a Fundraiser</p>
+						<p>Donor Resources</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<hr>			
+			<div class="col ps-5">
+				<p>Terms of use  |  Privacy Environmental Policy</p>
+			</div>
+			<div class="col ps-5">
+				<p>Copyright © 2024 Charity Hearts. All Rights Reserved.</p>
+			</div>
+		</div>
+        
+    </footer>
+	
+	<script>
+		
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("header");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
+		
+	</script>
+</body>
+</html>
